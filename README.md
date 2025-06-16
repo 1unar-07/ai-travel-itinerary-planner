@@ -123,7 +123,21 @@ The frontend expects a backend API with the following endpoints:
   location?: string;
 }
 ```
+## FIREBASE AUTHENTICATION
 
+1. Open `src/config/firebase.ts` in your project
+2. Replace the placeholder values with your actual Firebase configuration:
+
+```typescript
+const firebaseConfig = {
+  apiKey: "your-actual-api-key",
+  authDomain: "your-project-id.firebaseapp.com",
+  projectId: "your-project-id",
+  storageBucket: "your-project-id.appspot.com",
+  messagingSenderId: "your-messaging-sender-id",
+  appId: "your-app-id"
+};
+```
 ## Features in Detail
 
 ### Home Page
